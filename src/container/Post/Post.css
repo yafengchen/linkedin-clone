@@ -1,0 +1,39 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.post-above {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.post-content {
+  margin-left: 20px;
+  border-radius: 40px;
+  outline: none;
+  border: 0.1rem solid #eef3f8;
+  padding-left: 26px;
+  flex-grow: 1;
+}
+
+.post-below {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.post-function {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.post-function-name {
+  font-size: 1.2rem;
+}

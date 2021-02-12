@@ -1,0 +1,65 @@
+.briefprofile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.briefprofile-banner {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.briefprofile-sub {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.1rem solid #efefef;
+}
+
+.avatar {
+  position: absolute;
+  top: -35px;
+}
+.info-name {
+  margin-top: -15px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+.info-summary {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.connection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #efefef;
+  padding: 10px;
+}
+
+.connection-sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.premium-tools {
+  border-bottom: 0.1rem solid #efefef;
+  padding: 10px;
+}
+
+.myitems {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}

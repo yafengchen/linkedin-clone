@@ -1,0 +1,15 @@
+.home-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.home-left {
+  flex: 0.3;
+}
+.home-middle {
+  flex: 0.4;
+}
+
+.home-right {
+  flex: 0.3;
+}
