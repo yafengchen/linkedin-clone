@@ -1,15 +1,15 @@
 import React from "react";
-import "./Post.css";
+import "./NewPost.css";
 import Avatar from "@material-ui/core/Avatar/Avatar";
 
 function Post() {
   return (
-    <div className="post-container">
-      <div className="post-above">
+    <div className="newpost-container">
+      <div className="newpost-above">
         <Avatar style={{ height: "40px", width: "40px" }}>H</Avatar>
-        <input className="post-content" placeholder="Start a post"></input>
+        <input className="newpost-content" placeholder="Start a post"></input>
       </div>
-      <div className="post-below">
+      <div className="newpost-below">
         <div className="post-function">
           <svg
             xmlns="http://www.w3.org/2000/svg"
